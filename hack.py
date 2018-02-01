@@ -68,9 +68,9 @@ def login():
     #print('fsd')
     # get the search textbox
     search_field = driver.find_element_by_id("handle")
-    search_field.send_keys("sam_267")
+    search_field.send_keys("viky08")
     search_field = driver.find_element_by_id("password")
-    search_field.send_keys("9582501267")
+    search_field.send_keys("17081997")
     x=search_field.submit()
 
     driver.implicitly_wait(50)
